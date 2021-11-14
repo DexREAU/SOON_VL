@@ -23,17 +23,17 @@ html, body {
 }
 
 body {
-    background: var(--c1);
+    background-color: var(--c1);
+    background-image: url('assets/bg_desk.gif');
     color: var(--c2);
     font-weight: 100;
-    background-image: url('assets/BG_mobile.jpg');
     background-position: top center;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-size: 22rem;
+    background-size: 62rem;
 } html {
     font-size:16px;
     scroll-behavior:smooth;
@@ -245,7 +245,6 @@ header {
     }
 
     body {
-        background-image: url('assets/BG_desk.jpg');
         background-size: cover;
     }
 
