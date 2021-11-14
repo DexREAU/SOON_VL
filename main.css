@@ -24,7 +24,7 @@ html, body {
 
 body {
     background-color: var(--c1);
-    background-image: url('assets/bg_desk.gif');
+    /* background-image: url('assets/bg_desk.gif'); */
     color: var(--c2);
     font-weight: 100;
     background-position: top center;
@@ -34,6 +34,8 @@ body {
     align-items: center;
     min-height: 100vh;
     background-size: 62rem;
+    transition: background-image 10s ease;
+    background-image: none;
 } html {
     font-size:16px;
     scroll-behavior:smooth;
@@ -115,6 +117,7 @@ h2 {
     height: 100%;
     mix-blend-mode: hard-light;
     z-index: -1;
+    background-size: 100% 100%;
 }
 
 .light01 {
@@ -132,37 +135,37 @@ h2 {
 
 @keyframes light_move01 {
     0% {
-        background-position-x:0%;
+        background-position-x:0vw;
         opacity: 0.05;
     } 15% {
-        background-position-x:15%;
+        background-position-x:15vw;
         opacity: 0.1;
     } 50% {
-        background-position-x:-5%;
+        background-position-x:-5vw;
         opacity: 0.2;
     } 80% {
-        background-position-x:10%;
+        background-position-x:10vw;
         opacity: 0.1;
     } 100% {
-        background-position-x:0;
+        background-position-x:0vw;
         opacity: 0.05;
     }
 }
 @keyframes light_move02 {
     0% {
-        background-position-x:0%;
+        background-position-x:0vw;
         opacity: 0.1;
     } 15% {
-        background-position-x:5%;
+        background-position-x:5vw;
         opacity: 0.1;
     } 40% {
-        background-position-x:-10%;
+        background-position-x:-10vw;
         opacity: 0.15;
     } 70% {
-        background-position-x:20%;
+        background-position-x:20vw;
         opacity: 0.05;
     } 100% {
-        background-position-x:0%;
+        background-position-x:0vw;
         opacity: 0.1;
     }
 }
