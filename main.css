@@ -245,7 +245,8 @@ header {
     }
 
     body {
-        background-size: cover;
+        background-size: 80rem;
+        background-position: center;
     }
 
     .viralataswap_bt {
