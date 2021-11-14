@@ -24,7 +24,7 @@ html, body {
 
 body {
     background-color: var(--c1);
-    /* background-image: url('assets/bg_desk.gif'); */
+    background-image: url('assets/bg_desk.gif');
     color: var(--c2);
     font-weight: 100;
     background-position: top center;
@@ -34,8 +34,6 @@ body {
     align-items: center;
     min-height: 100vh;
     background-size: 62rem;
-    transition: background-image 10s ease;
-    background-image: none;
 } html {
     font-size:16px;
     scroll-behavior:smooth;
