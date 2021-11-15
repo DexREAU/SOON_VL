@@ -114,37 +114,37 @@ h2 {
 @keyframes light_move01 {
     0% {
         background-position-x:0vw;
-        opacity: 0.05;
+        opacity: 0;
     } 15% {
         background-position-x:15vw;
-        opacity: 0.2;
+        opacity: 0.1;
     } 50% {
         background-position-x:-5vw;
-        opacity: 0.1;
+        opacity: 0.05;
     } 80% {
         background-position-x:10vw;
-        opacity: 0.1;
+        opacity: 0.05;
     } 100% {
         background-position-x:0vw;
-        opacity: 0.05;
+        opacity: 0;
     }
 }
 @keyframes light_move02 {
     0% {
         background-position-x:0vw;
-        opacity: 0.1;
+        opacity: 0.05;
     } 15% {
         background-position-x:5vw;
-        opacity: 0.1;
+        opacity: 0.05;
     } 40% {
         background-position-x:-10vw;
-        opacity: 0.2;
+        opacity: 0.1;
     } 70% {
         background-position-x:20vw;
-        opacity: 0.05;
+        opacity: 0.;
     } 100% {
         background-position-x:0vw;
-        opacity: 0.1;
+        opacity: 0.05;
     }
 }
 
