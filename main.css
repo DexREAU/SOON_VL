@@ -24,7 +24,7 @@ html, body {
 
 body {
     background-color: var(--c1);
-    background-image: url('assets/BG_desk.jpg');
+    background-image: url('assets/va_bg.gif');
     color: var(--c2);
     font-weight: 100;
     background-position: top center;
@@ -33,7 +33,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-size: 62rem;
+    background-size: 25rem;
 } html {
     font-size:16px;
     scroll-behavior:smooth;
@@ -66,27 +66,7 @@ img {
 .mobile_hidden {
     display:none;
 }
-
-::-webkit-scrollbar {
-    width: 6px;
-  }
   
-  /* Track */
-  ::-webkit-scrollbar-track {
-    background: #000306;
-  }
-  
-  /* Handle */
-  ::-webkit-scrollbar-thumb {
-    background: #ffffff;
-  }
-  
-  /* Handle on hover */
-  ::-webkit-scrollbar-thumb:hover {
-    background: #00eeef;
-  }
-
-
 h1, h2 {
     font-weight: 100;
     text-transform: uppercase;
@@ -102,7 +82,7 @@ h1 {
 }
 
 h2 {
-    font-size: clamp(0.8rem, 3vw, 1rem);
+    font-size: clamp(0.8rem, 3vw, 0.9rem);
     margin-top: 1rem;
 }
 
@@ -137,7 +117,7 @@ h2 {
         opacity: 0.05;
     } 15% {
         background-position-x:15vw;
-        opacity: 0.3;
+        opacity: 0.2;
     } 50% {
         background-position-x:-5vw;
         opacity: 0.1;
@@ -158,7 +138,7 @@ h2 {
         opacity: 0.1;
     } 40% {
         background-position-x:-10vw;
-        opacity: 0.3;
+        opacity: 0.2;
     } 70% {
         background-position-x:20vw;
         opacity: 0.05;
@@ -235,6 +215,7 @@ header {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    opacity: 0.1;
 }
 
 
@@ -258,7 +239,7 @@ header {
     }
 
     body {
-        background-size: 80rem;
+        background-size: 30rem;
         background-position: center;
     }
 
