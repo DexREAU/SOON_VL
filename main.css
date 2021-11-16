@@ -79,6 +79,7 @@ h1, h2 {
 h1 {
     width: clamp(17rem, 90vw, 60rem);
     font-size: clamp(1rem, 5vw, 1.6rem);
+    max-width: 31rem;
 }
 
 h2 {
@@ -162,7 +163,7 @@ header {
     justify-content: center;
     align-items: center;
 } .viralataswap_bt img {
-    width: 3.2rem;
+    width: 2.8rem;
 } .viralataswap_bt a {
     padding: 0.5rem 0.8rem;
     background: linear-gradient(90deg, var(--c3), var(--c4));
@@ -234,5 +235,9 @@ header {
         bottom: unset;
         top: 3.5rem;
         right: 6rem;
+    }
+
+    h1 {
+        max-width: unset;
     }
 }
